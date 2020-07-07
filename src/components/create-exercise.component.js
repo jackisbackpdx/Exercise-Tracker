@@ -94,6 +94,7 @@ class CreateExercises extends Component {
                         className='form-control'
                         value={this.state.description}
                         onChange={this.onChangeDescription}
+                        placeholder='Description'
                         />
                     </div>
                     <div className='form-group'>
